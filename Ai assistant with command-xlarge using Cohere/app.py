@@ -2,7 +2,7 @@ import cohere
 import streamlit as st
 
 # Set your Cohere API token
-API_KEY = "r7zMPdYiqCr9CN4pCs8EyLwNLVJynXCNxyew7IVR"
+API_KEY = ""
 cohere_client = cohere.Client(API_KEY)
 
 st.title("Cohere AI Assistant")
